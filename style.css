@@ -1,0 +1,25 @@
+/* Define CSS styles to make the assets list look professional */
+.assets-window {
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+
+.asset {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.asset .id {
+    font-weight: bold;
+}
+
+.asset .mac-address {
+    color: #666666;
+}
+
+.asset .notes {
+    margin-top: 5px;
+}

@@ -1,0 +1,189 @@
+Dependancies 
+
+conda install -c conda-forge scapy
+
+conda install -c conda-forge prettytable
+
+conda install -c conda-forge progress
+conda install -c conda-forge cryptography
+conda install -c conda-forge python-nmap
+conda install -c anaconda pysnmp
+conda install -c anaconda scapy
+conda install -c anaconda prettytable
+conda install -c anaconda nmap
+conda install -c anaconda sqlite
+conda install -c anaconda networkx
+
+conda create --name myenv
+conda activate myenv
+conda activate your_environment_name
+
+conda install prettytable
+sudo conda install prettytable
+
+conda install -c anaconda logging
+conda install -c anaconda logging.handlers
+conda install -c anaconda os
+conda install -c anaconda sqlite3
+conda install -c anaconda sys
+conda install -c anaconda tk
+conda install -c anaconda pyqt5
+conda install -c anaconda pyqt5-tools
+conda install -c anaconda pyqt5-sip
+conda install -c anaconda pyqtwebengine
+conda install -c anaconda pyqt5chart
+conda install -c anaconda pyqt5qml
+conda install -c anaconda pyqt5webengine
+conda install -c anaconda pyqt5websockets
+conda install -c anaconda pyqt5webview
+conda install -c anaconda pyqt5winextras
+conda install -c anaconda pyqt5xml
+conda install -c anaconda pyqt5widgets
+conda install -c anaconda pyqt5uic
+conda install -c anaconda pyqt5svg
+conda install -c anaconda pyqt5networkauth
+conda install -c anaconda pyqt5multimedia
+conda install -c anaconda pyqt5location
+conda install -c anaconda pyqt5help
+conda install -c anaconda pyqt5designer
+conda install -c anaconda pyqt5bluetooth
+conda install -c anaconda pyqt5chart-qtcharts
+conda install -c anaconda pyqt5chart-qtdatavis3d
+conda install -c anaconda pyqt5chart-qtplot
+conda install -c anaconda pyqt5chart-qtquick3d
+conda install -c anaconda pyqt5chart-qtnetworkauth
+conda install -c anaconda pyqt5chart-qtqml
+conda install -c anaconda pyqt5chart-qtscxml
+conda install -c anaconda pyqt5chart-qtwebchannel
+conda install -c anaconda pyqt5chart-qtwebengine
+conda install -c anaconda pyqt5chart-qtwebsockets
+conda install -c anaconda pyqt5chart-qtwebview
+conda install -c anaconda pyqt5chart-qtwinextras
+conda install -c anaconda pyqt5chart-qtxml
+conda install -c anaconda pyqt5chart-qtx11extras
+conda install -c anaconda pyqt5chart-qtxmlpatterns
+conda install -c anaconda pyqt5chart-qtsensors
+conda install -c anaconda pyqt5chart-qtquick
+conda install -c anaconda pyqt5chart-qtquickwidgets
+conda install -c anaconda pyqt5chart-qtquickcontrols2
+conda install -c anaconda pyqt5chart-qtquicktemplates2
+conda install -c anaconda pyqt5chart-qtquicktimeline
+conda install -c anaconda pyqt5chart-qtquickshapes
+conda install -c anaconda pyqt5chart-qtquickparticles
+conda install -c anaconda pyqt5chart-qtquick3drender
+conda install -c anaconda pyqt5chart-qtquick3dinput
+conda install -c anaconda pyqt5chart-qtquick3dlogic
+conda install -c anaconda pyqt5chart-qtquick3dextras
+conda install -c anaconda pyqt5chart-qtquick3dgeometry
+conda install -c anaconda pyqt5chart-qtquick3danimation
+conda install -c anaconda pyqt5chart-I apologize for the confusion, but it seems that the list of modules and libraries you provided is incomplete. Some of the modules and libraries mentioned are part of the PyQt5 library, which you can install using the following command:
+
+```shell
+conda install -c anaconda pyqt
+conda install -c conda-forge fpdf
+conda install -c anaconda pyfiglet
+conda install pyfiglet
+
+pip install pyqt5 pyqt5-tools
+
+
+conda list
+conda clean --tarballs
+conda clean --packages
+conda clean --index-cache
+
+conda clean --all
+
+pip install requests
+pip install psutil
+pip install scapy
+pip install 
+pip install 
+pip install 
+
+
+
+conda install pyqt
+conda install requests
+conda install psutil
+conda install scapy
+
+from fpdf import FPDF
+
+# Example usage
+pdf = FPDF()
+pdf.add_page()
+pdf.set_font("Arial", size=12)
+pdf.cell(200, 10, txt="Hello, World!", ln=True)
+pdf.output("output.pdf")
+
+
+Here is a list of external dependencies used in the provided code:
+
+argparse: A standard Python library for parsing command-line arguments.
+
+ipaddress: A standard Python library for working with IP addresses and networks.
+
+logging: A standard Python library for logging messages.
+
+os: A standard Python library for interacting with the operating system, such as handling file paths.
+
+sqlite3: A standard Python library for working with SQLite databases.
+
+sys: A standard Python library providing access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
+
+threading: A standard Python library for working with threads.
+
+requests: A third-party library for making HTTP requests.
+
+scapy: A third-party library for crafting and sending packets, including ARP requests used for network scanning.
+
+PyQt5: A third-party library for creating desktop applications with graphical user interfaces (GUIs).
+
+Please note that PyQt5 may have additional dependencies itself, but they are not explicitly listed in the provided code. To use this code, you need to have all these dependencies installed in your Python environment. You can use conda or pip to install these packages.
+
+conda install -c conda-forge scapy
+conda install pyqt
+conda install psutil
+conda install requests
+
+Install OpenSSL: Make sure you have OpenSSL installed on your system. If you haven't installed it, you can use the package manager of your operating system to install it. For example, on Ubuntu, you can run the following command:
+
+arduino
+Copy code
+sudo apt-get install libssl-dev
+If you are using macOS, you can install OpenSSL using Homebrew:
+
+Copy code
+brew install openssl
+If you are using Windows, you can download and install OpenSSL from the official website: https://www.openssl.org/
+
+Reinstall cryptography: After installing OpenSSL, you can try reinstalling the cryptography library in your Anaconda environment:
+
+css
+Copy code
+pip install --force-reinstall cryptography
+The --force-reinstall flag will ensure that the library is reinstalled even if it's already present.
+
+Update Environment: If the above steps don't work, you can try updating your Anaconda environment. First, activate the environment:
+
+Copy code
+conda activate myenv
+Then, update the environment:
+
+sql
+Copy code
+conda update --all
+This will update all packages in the environment, including cryptography, which may help resolve the issue.
+
+Create a New Environment: If the problem persists, you can try creating a new Anaconda environment with a clean slate and reinstalling all required packages from scratch.
+
+lua
+Copy code
+conda create --name myenv python=3.9
+conda activate myenv
+pip install psutil requests pyqt5 scapy cryptography
+This will create a new environment named myenv, activate it, and install all the necessary packages.
+
+After trying these steps, run your script again to see if the issue is resolved. If you encounter any other errors or need further assistance, feel free to ask!
+
